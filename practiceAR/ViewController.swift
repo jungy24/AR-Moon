@@ -25,6 +25,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let material = SCNMaterial()
         
         material.diffuse.contents = UIImage(named: "art.scnassets/moon_texture.jpg")
+        
         sphere.materials = [material]
         
         // creating a node object i.e. a coordinate position in space
